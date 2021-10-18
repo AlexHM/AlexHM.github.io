@@ -1,0 +1,357 @@
+/*
+Fonts
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+*/
+
+/*General styles*/
+
+body {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    color: white;
+}
+
+ul {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(red, red);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2vh;
+    background-position-y: 2vh;
+    transition: background-size .3s;
+}
+
+a:hover, a:focus {
+    background-size: 100% 1vh;
+    
+}
+
+/*////////////DESKTOP//////*/
+
+/*navbar*/
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+#divImgNavbar {
+    width: 30vh;
+    padding: 1vh;
+    margin-top: 2vh;
+    margin-left: 30rem;
+}
+
+#imgNavbar {
+    width: 70%;
+    height: auto;
+}
+
+#divNavbarLeft {
+    display: flex;
+    flex-direction: row;
+}
+
+#nameDescription {
+    margin-top: 4vh;
+    margin-left: -5vh;
+}
+
+#divnavbarRight {
+    margin: auto;
+    display: flex;
+    width: 100%;
+    font-size: 2vh;
+    margin-top: 6vh;
+    margin-right: 5vh;
+    margin-left: 25rem;
+}
+
+#about {
+    display: none;
+}
+
+/*Content*/
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2vh;
+    margin-top: 15vh;
+    margin-left: 35rem;
+}
+
+/*Skills*/
+
+#skillsTitle{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#skills {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10rem;
+}
+
+#skillsImgs {
+    display: grid;
+    grid-template-columns: 10vh 10vh 10vh 10vh;
+    grid-column-gap: 2vh;
+    grid-row-gap: 4vh;
+    margin-left: 5vh;
+    margin-top: 8rem;
+    
+}
+#skillsFields{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50vh;
+    margin-top: 4vh;
+    font-family: 'Nunito', sans-serif;
+
+    
+}
+
+.fill {
+    background-color: red;
+    width: 50vh;
+    height: 0.2vh;
+    margin-bottom: 1vh;
+}
+#f1 {
+    background-color:orangered;
+    width: 60vh;
+}
+#f2 {
+    background-color:rgb(32, 150, 217);
+    width: 40vh;
+}
+#f3 {
+    background-color:rgb(237, 229, 35);
+    width: 30vh;
+}
+#f4 {
+    background-color:red;
+    width: 67vh;
+}
+#f5 {
+    background-color:greenyellow;
+    width: 35vh;
+}
+#f6 {
+    background-color:tomato;
+    width: 65vh;
+}
+
+/*Footer*/
+footer{
+    margin-top: 10rem;
+    background-color: white;
+    width: 100%;
+    height: 20vh;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+#fTittleProject{
+    text-decoration:underline;
+    margin-left: 4vh;
+}
+#fProject{
+    margin-left: 20vh;
+    margin-top: 1vh;
+    text-align: start;
+    width: 60vh;
+    
+}
+#fContentProject{
+    text-align: start;
+    font-family: 'Nunito', sans-serif;
+}
+.aF{
+    color: black;
+    text-decoration: none;
+}
+#fAbout{
+    margin-left: 20vh;
+    margin-top: 1vh;
+    text-align: start;
+    width: 60vh;
+    
+}
+#fTittleAbout{
+    text-decoration:underline;
+    margin-left: 4vh;
+}
+#fContentAbout{
+    text-align: start;
+    font-family: 'Nunito', sans-serif;
+}
+
+#fSocial{
+    display: flex;
+    flex-direction: column;
+}
+#fSocialIcons{
+    display: flex;
+    flex-direction: row;
+}
+#lnk{
+    margin-top: 0.8vh;
+    margin-left: 2vh;
+}
+#fTittleSocial{
+    text-decoration: underline;
+}
+
+
+/*//////MOBILE///////*/
+
+@media only screen and (max-width: 768px) {
+    /*navbar*/
+    #divImgNavbar {
+        width: 10vh;
+        padding: 1vh;
+        margin-top: 2vh;
+        border-radius: 60%;
+        margin-left: 0vh;
+    }
+    #imgNavbar {
+        width: 85%;
+        height: auto;
+    }
+    #nameDescription {
+        display: none;
+    }
+    #navbar {
+        display: flex;
+        flex-direction: row;
+    }
+    #divnavbarRight {
+        margin: auto;
+        display: flex;
+        width: 100%;
+        font-size: 2vh;
+        margin-top: 3vh;
+        margin-right: 5vh;
+    }
+    #aboutme {
+        display: none;
+    }
+    #about {
+        display: block;
+    }
+    /*Content*/
+    #content {
+        display: flex;
+        justify-content: center;
+        font-size: 3vh;
+        margin-top: 5vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*Skills*/
+
+    #skillsTitle{
+        text-align: center;
+    }
+    #skills {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10rem;
+    }
+    #skillsFields{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #skillsImgs{
+        display: none;
+    }
+    .fill {
+        background-color: red;
+        display: flex;
+        
+        margin-top: 5vh;
+        width: 50vh;
+        height: 0.2vh;
+        margin-bottom: 1vh;
+        margin-left: 10vh;
+    }
+    #f1 {
+        background-color:orangered;
+        width: 40vh;
+    }
+    #f2 {
+        background-color:rgb(32, 150, 217);
+        width: 30vh;
+    }
+    #f3 {
+        background-color:rgb(237, 229, 35);
+        width: 20vh;
+    }
+    #f4 {
+        background-color:red;
+        width: 45vh;
+    }
+    #f5 {
+        background-color:greenyellow;
+        width: 20vh;
+    }
+    #f6 {
+        background-color:tomato;
+        width: 45vh;
+    }
+
+    /*Footer*/
+
+    footer{
+        margin-top: 10rem;
+        background-color: white;
+        width: 100%;
+        height: 70vh;
+        display: grid;
+        grid-template-columns: 10vh 10vh;
+        
+    }
+    #fProject{
+      display: flex;
+      flex-direction: column;
+      margin-left: 1vh;
+    }
+    .aF{
+     
+    }
+    #fTittleAbout{
+       margin-bottom: 5.5vh;
+    }
+    
+    
+    #fSocial{
+      margin-left: 100%;
+    }
+}
