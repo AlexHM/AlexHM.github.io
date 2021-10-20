@@ -88,9 +88,7 @@ a:hover, a:focus {
     margin-left: 25rem;
 }
 
-#about {
-    display: none;
-}
+
 
 /*Content*/
 
@@ -260,12 +258,7 @@ footer{
         margin-top: 3vh;
         
     }
-    #aboutme {
-        display: none;
-    }
-    #about {
-        display: block;
-    }
+   
     /*Content*/
     #content {
         display: flex;
