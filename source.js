@@ -23,7 +23,7 @@ sr.reveal('#personalText',{
     distance:'100px'
 });
 sr.reveal('#personalImage',{
-    duration:10000,
+    duration:5000,
     origin:'bottom',
     distance:'100px'
 });
