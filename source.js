@@ -7,7 +7,7 @@ window.sr = ScrollReveal();
 //Content
 sr.reveal('#titleContent',{
     duration:2000,
-    origin:'left',
+    origin:'bottom',
     distance:'100px'
 });
 sr.reveal('#infoContent',{
@@ -19,7 +19,7 @@ sr.reveal('#infoContent',{
 //PersonalInfo
 sr.reveal('#personalText',{
     duration:2000,
-    origin:'left',
+    origin:'top',
     distance:'100px'
 });
 sr.reveal('#personalImage',{
@@ -31,12 +31,17 @@ sr.reveal('#personalImage',{
 
 sr.reveal('#tittleSkills',{
     duration:2000,
-    origin:'left',
+    origin:'top',
     distance:'100px'
 });
 sr.reveal('.skillsImg',{
     duration:3000,
-    origin:'right',
+    origin:'bottom',
+    distance:'300px'
+});
+sr.reveal('#footerR',{
+    duration:3000,
+    origin:'bottom',
     distance:'300px'
 });
 
