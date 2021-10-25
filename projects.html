@@ -5,14 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo-3.png" type="image/x-icon">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="projects.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Nunito:ital,wght@1,200&display=swap"
         rel="stylesheet">
 
-    <title>AH || PROJECTS</title>
+    <title>Projects</title>
 </head>
 
 <body>
@@ -39,56 +42,71 @@
         </div>
     </nav>
 
-    <h1 style="text-align: center;">Under construction</h1>
+    <!--Divs projects-->
+    <div id="projectSelector">
+        <h3>Filter project</h3>
+        <select name="selector1" id="selector1">
+            <option id="op1">Finished</option>
+            <option id="op2">On Creation</option>
+            <option id="op3">Work</option>
+        </select>
 
+    </div>
+    <div id="projectsGeneral">
+        <div class="prj" id="p1"><img src="practics.png" alt="practics" class="imgsP" id="practics"></div>
+        <div class="prj" id="p2"><img src="cpuProcess.PNG" alt="cpuProcess" class="imgsP"></div>
+        <div class="prj" id="p3"><img src="logo-4.png" alt="logo-3" class="imgsP"></div>
+        <div class="prj" id="p4"><img src="esix.png" alt="esix" class="imgsP"></div>
+        <div class="prj" id="p5"><img src="spaceAdventure.png" alt="sadventure" class="imgsP"></div>
+    </div>
 
+<!--Footer-->
+ <!--Footer-->
+ <footer id="footerR">
+    <div id="fProject">
+        <div id="fTittleProject">
+            <h3>All projects</h3>
+        </div>
+        <div id="fContentProject">
+            <ul><a href="https://github.com/AlexHM/alejandroHonrubia/tree/master/Portfolio"
+                    class="aF">Portfolio</a>
+            </ul>
+            <ul><a href="https://github.com/AlexHM/alejandroHonrubia/tree/master/CPUProcess" class="aF">Computer
+                    Process</a></ul>
+            <ul><a href="https://github.com/AlexHM/alejandroHonrubia/tree/main/Practics" class="aF">App Practics</a></ul>
+        </div>
+    </div>
+    <div id="fAbout">
+        <div id="fTittleAbout">
+            <h3>About</h3>
+        </div>
+        <div id="fContentAbout">
+            <ul><a href="#content" class="aF">Who I am?</a></ul>
+            <ul><a href="#personalText" class="aF">Know me</a></ul>
+            <ul><a href="#skills" class="aF">Skills</a></ul>
 
-
-
-
-
-    <!--Footer-->
-    <!-- <footer>
-        <div id="fProject">
-            <div id="fTittleProject">
-                <h3>All projects</h3>
+        </div>
+    </div>
+    <div id="fSocial">
+        <div id="fTittleSocial">
+            <h3>Social</h3>
+        </div>
+        <div id="fSocialIcons">
+            <div class="fIcons">
+                <a href="#"><img src="github.png" alt="gitHub"></a>
             </div>
-            <div id="fContentProject">
-                <ul><a href="https://github.com/AlexHM/alejandroHonrubia/tree/master/Portfolio" class="aF">Portfolio</a></ul>
-                <ul><a href="https://github.com/AlexHM/alejandroHonrubia/tree/master/CPUProcess" class="aF">Computer Process</a></ul>
-                <ul><a href="#" class="aF">App Practics</a></ul>
-
+            <div id="lnk">
+                <a href="#"> <img src="linkedn.png" alt="gitHub"></a>
             </div>
         </div>
-        <div id="fAbout">
-            <div id="fTittleAbout">
-                <h3>About</h3>
-            </div>
-            <div id="fContentAbout">
-                <ul><a href="#" class="aF">Skills</a></ul>
-                <ul><a href="#" class="aF">Who I am?</a></ul>
-                <ul><a href="#" class="aF">Know me</a></ul>
+    </div>
+</footer>
 
-            </div>
-        </div>
-        <div id="fSocial">
-            <div id="fTittleSocial">
-                <h3>Social</h3>
-            </div>
-            <div id="fSocialIcons">
-                <div class="fIcons">
-                    <a href="#"><img src="/Portfolio/imgs/github.png" alt="gitHub"></a>
-                </div>
-                <div id="lnk">
-                   <a href="#"> <img src="/Portfolio/imgs/linked.png" alt="gitHub"></a>
-                </div>
-               
-            </div>
-           
-        </div>
 
-    </footer> -->
 
+
+
+    <script src="project.js"></script>
 </body>
 
 </html>
