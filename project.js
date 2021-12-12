@@ -26,6 +26,11 @@ sr.reveal('#p5',{
     origin:'bottom',
     distance:'400px'
 });
+sr.reveal('#p6',{
+    duration:5000,
+    origin:'bottom',
+    distance:'400px'
+});
 
 
 
@@ -35,6 +40,7 @@ let option2 = document.getElementById("p2");
 let option3 = document.getElementById("p3");
 let option4 = document.getElementById("p4");
 let option5 = document.getElementById("p5");
+let option6 = document.getElementById("p6");
 
 select.addEventListener('change',
   function(){
@@ -47,6 +53,7 @@ select.addEventListener('change',
         option3.style.display= "none";
         option4.style.display= "block";
         option5.style.display= "block";
+        option6.style.display= "none";
         
 
     }else if (selectedOption == "Finished") {
@@ -55,6 +62,7 @@ select.addEventListener('change',
         option1.style.display= "block";
         option2.style.display= "block";
         option3.style.display= "block";
+        option6.style.display= "block";
     }else{
         option1.style.display= "block";
         option2.style.display= "block";
